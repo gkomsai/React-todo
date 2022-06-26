@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+.main-cotainer {
+  display: block;
+  width: 60%;
+  margin: auto;
+  margin-top: 4rem;
+  /* border: 1px solid red; */
+  padding: 2%;
+
+}
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  gap: 2rem;
+}
+.input-container input {
+  font-size: 3rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  outline: none;
+  /* this outline thing will remove the border also when writing-mode */
+  border-radius: 0.5rem;
+  padding: 2%;
+}
+.btn {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 5rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 1%;
+  border: none;
+  outline: none;
+}
+ul {
+  list-style-type: none;
+  margin-top: 4rem;
+}
+.striked{
+  text-decoration: line-through;
+}
+.individual-item-box {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.8rem;
+  padding: 2%; 
+  margin-bottom: 1rem;
+}
+#normal{
+  color: blue;
+}
+#green{
+  color: green;
+}
+
+.trash-icon {
+  color: red;
+}
